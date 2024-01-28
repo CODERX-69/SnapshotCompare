@@ -1,0 +1,14 @@
+{
+    "agent": {
+        "1": {"agent_id": 1, "agent_name": "Agent 1", "agent_profile_id": 1, "agent_email": "agent1@example.com", "agent_phone": "123-456-7890", "agent_status": "active"},
+        "2": {"agent_id": 2, "agent_name": "Agent 2", "agent_profile_id": 2, "agent_email": "agent2@example.com", "agent_phone": "987-654-3210", "agent_status": "inactive"}
+    },
+    "agent_profile": {
+        "1": {"agent_profile_id": 1, "agent_profile_name": "Profile 1", "profile_description": "Description 1", "profile_creation_date": "2024-01-01", "profile_last_update": "2024-01-15 12:00:00", "profile_status": "active"},
+        "2": {"agent_profile_id": 2, "agent_profile_name": "Profile 2", "profile_description": "Description 2", "profile_creation_date": "2024-01-02", "profile_last_update": "2024-01-14 14:30:00", "profile_status": "inactive"}
+    },
+    "terminal": {
+        "101": {"terminal_id": 101, "agent_profile_id": 1, "terminal_name": "Terminal 1", "terminal_location": "Location 1", "terminal_capacity": 100},
+        "102": {"terminal_id": 102, "agent_profile_id": 2, "terminal_name": "Terminal 2", "terminal_location": "Location 2", "terminal_capacity": 150}
+    }
+}
